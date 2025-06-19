@@ -1,9 +1,12 @@
-## Currently only works with: [Instaffo](https://app.instaffo.com/)
+# Sitemap Crawler
 
-The crawler performs the following steps:
-1. Looks for a sitemap.
-2. Downloads the sitemap.
-3. Searches for a given job title combined with a given date in the sitemap URLs. Then shows only job posts newer than the specified date.
+**Currently only works with [instaffo.com](https://www.instaffo.com/en/talent).**
+
+- **Workflow**:
+1. Checks the provided URL for a sitemap.
+2. Downloads the sitemap if found.
+3. Filters sitemap URLs for job listings matching a specific title and published after a target date.
+4. Outputs the filtered job posts.
 
 ## Usage 
 
